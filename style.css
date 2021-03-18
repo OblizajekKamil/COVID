@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+	body {background-image: url(wp.jpg); background-repeat: no-repeat; background-size:cover; background-color: black; font-family: "Comic Sans MS", sans-serif; text-align: center; color: #FFFFFF;}
+    #naglowek {font-size: 55px;color:black;}
+	#naglowek2 {font-size: 20px;color:black;}
+	#pola {border: none; margin: 20px 0 0 0;}
+	#wynikifull {position: relative; top:20px;font-size: 25px; background-color: white; border: 5px; border-style: solid; border-color: black; height: 400px; opacity:0.5;}
+	#wyniki {color:black;position: relative; top: 30px;}
+	#country{color: #ff00b3;position: relative; top: 50px;}
+	#result {color: black;position: relative; top: 50px;}
+	

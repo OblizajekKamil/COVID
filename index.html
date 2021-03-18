@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COVID - 19 | Statystyki</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="search">
+		<h id="naglowek">COVID19</h><br/>
+		<h id="naglowek2">(Proszę używać angielskich nazw)</h></br>
+		<h id="naglowek2">(Po wyszukaniu wyników, proszę użyć przycisku "Reset" przed kolejnym szukaniem)</h>
+		<div id="pola">
+			<form id="polaform">
+			<input type="text" id="textfield" placeholder="Wpisz kraj eg.Italy"/>
+			<button type="submit" id="search" onClick="performSearch(event)">Wyszukaj</button>
+			<button type="reset" id="resetuj" onClick="this.form.reset();resetResults()">Reset</button>
+			</form>
+		</div>
+		<div id="polebiale">
+		<div id="wynikifull">
+			<h id="wyniki">Statystyki:</h>
+			<div id="country"></div>
+			<div id="result"></div>
+		</div>
+		</div>
+	</div>
+	
+</body>
+</html>
